@@ -1,30 +1,30 @@
 {
-    "name": "jt400",
-    "version": "0.0.1",
-    "description": "Implementation http://jt400.sourceforge.net/ on JavaScript ",
-    "main": "index.js",
-    "dependencies": {
-        "string": "1.7.0",
-        "java": "0.2.9"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/paulomcnally/jt400.js.git"
-    },
-    "directories": {
-        "lib": "lib"
-    },
-    "keywords": [
-        "as400",
-        "IBM",
-        "java",
-        "db2"
-    ],
-    "author": {
-        "name": "Paulo McNally",
-        "email": "paulomcnally@gmail.com"
-    },
-    "bugs": {
-        "url": "https://github.com/paulomcnally/jt400.js/issues"
-    }
+  "name": "jt400",
+  "version": "0.0.2",
+  "description": "Implementation http://jt400.sourceforge.net/ on JavaScript ",
+  "main": "index.js",
+  "dependencies": {
+    "java": "^0.3.4",
+    "string": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulomcnally/jt400.js.git"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "as400",
+    "IBM",
+    "java",
+    "db2"
+  ],
+  "author": {
+    "name": "Paulo McNally",
+    "email": "paulomcnally@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/paulomcnally/jt400.js/issues"
+  }
 }
