@@ -34,6 +34,18 @@ More info: [http://jt400.sourceforge.net/](http://jt400.sourceforge.net/)
         }
     });
 
+    //INSERT and UPDATE statements must be run with executeUpdate()
+    db.executeUpdate("INSERT INTO users (name) VALUES ('bob')");
+
+    db.on('executeUpdate' function(error, rowCount) {
+        if( error ){
+            console.log(error);
+        }
+        else{
+            console.log( rowCount );
+        }
+    });
+
 # Run
     node app.js
 
