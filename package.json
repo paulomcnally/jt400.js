@@ -4,8 +4,8 @@
   "description": "Implementation http://jt400.sourceforge.net/ on JavaScript ",
   "main": "index.js",
   "dependencies": {
-    "java": "^0.3.4",
-    "string": "^1.8.1"
+    "java": "^0.4.4",
+    "string": "^3.0.0"
   },
   "repository": {
     "type": "git",
