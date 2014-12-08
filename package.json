@@ -1,6 +1,6 @@
 {
   "name": "jt400",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Implementation http://jt400.sourceforge.net/ on JavaScript",
   "main": "index.js",
   "dependencies": {
