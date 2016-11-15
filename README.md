@@ -53,6 +53,22 @@ More info: [http://jt400.sourceforge.net/](http://jt400.sourceforge.net/)
       }
     });
 
+    //CALL stored procedure must use executeStoredProc()
+    var outputParameters = [{
+      Index: 1,
+      DataType: 1
+    }];
+
+    database.executeStoredProc("CALL FOO('BAR',?)", outputParameters);
+
+    database.on('executeStoredProc', function(error, results) {
+      if (error) {
+        console.log(error);
+      }
+      else {
+        console.log(results);
+      }
+    });
 
 # Run
     node app.js
